@@ -11,7 +11,7 @@ Use English for intake and progress; use the requested deliverable language. Run
 
 Invocation starts intake, not execution. Reuse the conversation and inspect supplied material or relevant repository instructions read-only when needed to avoid questions. Do not begin substantive research, implementation, or delegation yet.
 
-If no goal is supplied, ask: “What would you like to achieve, what deliverable do you need, and why does it matter?” Otherwise ask only unresolved questions that affect the result, scope, permissions, or acceptance. Ask 1–3 questions at a time. If enough is known, go straight to the approval summary.
+If the user is unsure what to improve, start with one concrete frustration or desired change and suggest a useful first deliverable. Otherwise, if no goal is supplied, ask: “What would you like to achieve, what deliverable do you need, and why does it matter?” Ask only unresolved questions that affect the result, scope, permissions, or acceptance. Ask 1–3 questions at a time. If enough is known, go straight to the approval summary.
 
 Propose sensible defaults for format, models, and acceptance checks instead of making the user design the process. Label consequential assumptions; never invent business facts, constraints, or approvals. Keep scope at the requested stage: a research brief, plan, PRD, technical design, or implementation. For a large assignment propose usable milestones.
 
@@ -19,7 +19,9 @@ Propose sensible defaults for format, models, and acceptance checks instead of m
 
 Read [runtime guidance](references/runtime.md) once before selecting agents; consult only the relevant section of [task checks](references/task-checks.md) when defining acceptance. Choose checks proportional to the actual task, not every item in a checklist.
 
-Present a short **What / Why / Boundaries / DoD** summary:
+Present a short **What / Why / Boundaries / DoD** summary. For a straightforward task, aim for about 150 words: compress routine defaults into one line and avoid explaining the whole protocol. Use the simplest sufficient output format unless a specific format is requested.
+
+Include:
 - Deliverable, audience, language/format, intended value, essential inputs, and assumptions.
 - Scope and permitted actions, including any external actions; actual agent roles/models and capability limits.
 - Usually 3 equally weighted, observable quality criteria with evidence; use up to 5 when useful. Add mandatory pass/fail checks for requirements that cannot be traded off.
