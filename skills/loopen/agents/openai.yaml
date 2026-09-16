@@ -1,14 +1,12 @@
 interface:
-  display_name: loopen
-  short_description: Interviews the user in English to define an agent improvement
-    loop and runs it only after explicit approval. Use when the user invokes loopen
-    or requests an English interview to define and run an agent improvement loop.
-  icon_small: assets/icon.svg
-  icon_large: assets/icon.svg
+  display_name: "loopen"
+  short_description: "Focused intake, iterative work, and independent review"
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
 policy:
   products:
-  - chatgpt
-  - codex
-  - api
-  - atlas
+  - "chatgpt"
+  - "codex"
+  - "api"
+  - "atlas"
   allow_implicit_invocation: true
