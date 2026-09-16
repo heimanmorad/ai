@@ -1,0 +1,14 @@
+interface:
+  display_name: loophe
+  short_description: מנחה בעברית תשאול להגדרת לולאת שיפור עם סוכנים, ומנהל אותה רק
+    אחרי אישור הרצה מפורש. Use when the user invokes loophe or requests a Hebrew interview
+    to define and run an agent improvement loop.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
