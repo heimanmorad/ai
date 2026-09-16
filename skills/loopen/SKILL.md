@@ -9,11 +9,15 @@ Use English for intake and progress; use the requested deliverable language. Run
 
 ## 1. Clarify only what changes the work
 
-Invocation starts intake, not execution. Reuse the conversation and inspect supplied material or relevant repository instructions read-only when needed to avoid questions. Do not begin substantive research, implementation, or delegation yet.
+Invocation starts intake, not execution. Before asking, reuse task-relevant context from the conversation, accessible memory/history, supplied files, and repository guidance. If missing prior context affects a decision and memory/history lookup is available, make a focused read-only lookup. Do not search again for known information or begin substantive research, implementation, or delegation.
 
-If the user is unsure what to improve, start with one concrete frustration or desired change and suggest a useful first deliverable. Otherwise, if no goal is supplied, ask: “What would you like to achieve, what deliverable do you need, and why does it matter?” Ask only unresolved questions that affect the result, scope, permissions, or acceptance. Ask 1–3 questions at a time. If enough is known, go straight to the approval summary.
+Current instructions and current task sources take precedence over older memory. Use established preferences and familiarity to propose sensible defaults and assumptions without reconfirming every known detail. Distinguish supplied information from your inferences; label consequential assumptions in the approval summary. Verify stale, conflicting, or uncertain context only when it changes the outcome. Never invent memories or treat an old budget, date, or project status as current fact. Familiarity is not authorization for a run or external action.
 
-Propose sensible defaults for format, models, and acceptance checks instead of making the user design the process. Label consequential assumptions; never invent business facts, constraints, or approvals. Keep scope at the requested stage: a research brief, plan, PRD, technical design, or implementation. For a large assignment propose usable milestones.
+Ask 1–3 questions at a time, only about gaps affecting the result, scope, permissions, or acceptance. If direction is unclear, start with a concrete frustration or desired change and suggest a useful first deliverable. If enough is known, go straight to the approval summary. Propose format, models, and checks instead of making the user design the process.
+
+When choosing among defined directions would help, offer a multiple-choice question with a few distinct options, usually 2–4, and briefly explain the differences. Recommend an option when context supports it, and allow a free-form answer or “not sure.” Use a native choice interface when available and appropriate, respecting its constraints; otherwise number the options in text. Ask openly when the goal still needs discovery or preset choices would narrow it prematurely.
+
+Keep scope at the requested stage: research, a plan, PRD, technical design, or implementation. For large assignments propose usable milestones.
 
 ## 2. Define success and get one approval
 
